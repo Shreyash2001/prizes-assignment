@@ -57,7 +57,7 @@ function App() {
 
   useEffect(() => {
     async function fetchData() {
-      const {data} = await axios.get("http://api.nobelprize.org/v1/prize.json");
+      const {data} = await axios.get("https://api.nobelprize.org/v1/prize.json");
       if(data) {
         setWinner(data.prizes);
       }
