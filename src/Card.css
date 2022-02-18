@@ -1,0 +1,39 @@
+.card {
+    min-width: 250px;
+    min-height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 30px;
+    cursor: pointer;
+    transition: transform 550ms;
+}
+
+.big_card {
+    min-width: 250px;
+    height: 100px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 30px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right bottom, rgb(0, 127, 255), rgb(0, 89, 178) 120%);
+
+}
+
+.card__heading {
+    display: flex;
+}
+
+.card__info {
+    color: #fff;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.card__motivation {
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+}

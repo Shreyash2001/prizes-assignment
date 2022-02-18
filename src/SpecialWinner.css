@@ -1,0 +1,16 @@
+.specialwinner {
+    display: flex;
+    align-items: center;
+}
+
+.specialwinner > div {
+    padding-left: 15px;
+    width: 300px;
+    border-radius: 12px;
+    margin: 10px;
+    background: linear-gradient(to right bottom, rgb(0, 127, 255), rgb(0, 89, 178) 120%);
+}
+
+.specialwinner_names {
+    color: #fff;
+}
